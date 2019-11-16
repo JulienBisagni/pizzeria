@@ -1,0 +1,54 @@
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+
+/* Importing all components file */
+@import url("components/cards.css");
+@import url("components/button.css");
+
+
+/* General for fonts and colors */
+body {
+  margin: 100px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-top: 0px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 20px;
+  margin: 0 0 5px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 30px;
+}

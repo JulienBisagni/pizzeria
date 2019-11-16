@@ -1,0 +1,102 @@
+/* Your card CSS file */
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1564936281499-5987fb28ff7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+}
+
+.card-product {
+  display: flex;
+  align-items: top;
+  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-product img {
+  height: 100%;
+  width: 200px;
+  object-fit: cover;
+  transition-duration: 0.75s;
+}
+
+.card-product:hover img  {
+  transform: scale(1.25);
+}
+
+.wrap-img {
+  overflow: hidden;
+}
+
+.card-product-info {
+  padding: 16px 0px;
+}
+
+.card-product-info h2,p {
+  margin: 0 0 5px 20px ;
+}
+
+.card-product-info h2 {
+  font-weight: bold;
+}
+
+.card-product-info p {
+  font-weight: ligher;
+  font-size: 75%;
+}
+
+.card-product-info p:last-child {
+}
+
+
+.card-trip {
+  overflow: hidden;
+  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.card-trip img {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip-info {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.card-trip div p, h2 {
+  margin: 0 0 5px 0px ;
+}
+
+.card-trip div p {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.card-trip-info .card-avatar {
+  position: absolute;
+  right: -70px;
+  bottom: -30px;
+  width: 230px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  transform: scale(0.20);
+}
+
+
